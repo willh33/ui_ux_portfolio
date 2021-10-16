@@ -27,7 +27,18 @@
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Projects</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#dmv">Utah DMV Redesign</a></li>
+                                <li><a class="dropdown-item" href="#filmmakers">Utah Film Makers Association Redesign</a></li>
+                            </ul>
+                        </li>
+                        <!-- <li class="nav-item">
+                            <a class="nav-link" href="#projects">
+                                    Projects
+                            </a>
+                        </li> -->
                         <li class="nav-item"><a class="nav-link" href="#signup">Contact</a></li>
                     </ul>
                 </div>
@@ -60,8 +71,8 @@
                 <img class="img-fluid" src="assets/img/profile.jpeg" alt="..." />
             </div>
         </section>
-        <!-- Projects-->
-        <section class="projects-section bg-light" id="projects">
+        <!-- Project 1-->
+        <section class="projects-section bg-light" id="dmv">
             <h2 class="case-study-header center-text">Case Study 1: Utah DMV Site Redesign</h2>
             <div class="container px-4 px-lg-5">
                 <!-- Featured Project Row-->
@@ -135,6 +146,107 @@
                                 <div class="project-text w-100 my-auto text-center text-lg-right">
                                     <h4 class="text-white">Desktop Homepage</h4>
                                     <p class="mb-0 text-white-50">The Final Desktop Home Page</p>
+                                    <hr class="d-none d-lg-block mb-0 me-0" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Project 2 -->
+        <section class="projects-section bg-light" id="filmmakers">
+            <h2 class="case-study-header center-text">Case Study 2: Utah Film Makers Association Redesign</h2>
+            <div class="container px-4 px-lg-5">
+                <!-- Featured Project Row-->
+                <div class="row gx-0 mb-4 mb-lg-5 align-items-center">
+                    <div class="col-xl-8 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="assets/img/film-makers-home.png" alt="..." /></div>
+                    <div class="col-xl-4 col-lg-5">
+                        <div class="featured-text-right text-center text-lg-left">
+                            <h4>The Problem</h4>
+                            <p class="text-black-50 mb-0">
+                                The Utah Film Makers Association is a non-profit organization that supports local film enthusiasts
+                                on their journey to become professionals in Utah's film industry. However, their website is not responsive,
+                                looks very outdated and ugly, and it's navigation is very unintuitive.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row gx-0 mb-4 mb-lg-5 align-items-center">
+                    <div class="col-xl-4 col-lg-5">
+                        <div class="featured-text text-center text-lg-left">
+                            <h4>User Research</h4>
+                            <p class="text-black-50 mb-0">
+                                We found that 70% percent of our test subjects felt like the Utah Film Makers Association's values lined
+                                up with their own, but didn't feel like the site was very trustworthy or effective. They felt like this
+                                because the site looked very unprofessional and it was hard to tell where the donations went and how they were used.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-xl-8 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="assets/img/taking-pictures.jpeg" alt="..." /></div>
+                </div>
+                <div class="row gx-0 mb-4 mb-lg-5 align-items-center">
+                    <div class="col-xl-8 col-lg-7">
+                        <img class="img-fluid mb-3 mb-lg-0" src="assets/img/film-card-sort.png" alt="..." />
+                    </div>
+                    <div class="col-xl-4 col-lg-5">
+                        <div class="featured-text-right text-center text-lg-left">
+                            <h4>Navigation Redesign</h4>
+                            <p class="text-black-50 mb-0">We used the card sort method to simplify the navigation into 4 categories</p>
+                            <ol>
+                                <li>Home</li>
+                                <li>About Us</li>
+                                <li>Support</li>
+                                <li>Community</li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+                <div class="row gx-0 mb-4 mb-lg-5 align-items-center">
+                    <div class="col-xl-4 col-lg-5">
+                        <div class="featured-text text-center text-lg-left">
+                            <h4>Usability Tests</h4>
+                            <p class="text-black-50 mb-0">
+                                Testing our prototype, users felt alot more comfortable. They felt like the site was more professional,
+                                a lot easier to navigate, cleaner, and the donate option was much easier to find.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-xl-8 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="assets/img/user-flow.png" alt="..." /></div>
+                </div>
+                <!-- Project One Row-->
+                <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
+                    <div class="col-lg-6" style="display: flex; justify-content: center; background-color: white;">
+                        <!-- <img class="img-fluid" src="assets/img/mobile-home.png" alt="..." /> -->
+
+                        <video width="320" height="240" controls>
+                            <source src="assets/videos/mobile-mov.mov" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="bg-black text-center h-100 project">
+                            <div class="d-flex h-100">
+                                <div class="project-text w-100 my-auto text-center text-lg-left">
+                                    <h4 class="text-white">Mobile Prototype</h4>
+                                    <p class="mb-0 text-white-50">The Final Mobile Prototype</p>
+                                    <hr class="d-none d-lg-block mb-0 ms-0" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project Two Row-->
+                <div class="row gx-0 justify-content-center">
+                    <div class="col-lg-6">
+                        <!-- <img class="img-fluid" src="assets/img/desktop-home.png" alt="..." /> -->
+                    </div>
+                    <div class="col-lg-6 order-lg-first">
+                        <div class="bg-black text-center h-100 project">
+                            <div class="d-flex h-100">
+                                <div class="project-text w-100 my-auto text-center text-lg-right">
+                                    <h4 class="text-white">Desktop Prototype</h4>
+                                    <p class="mb-0 text-white-50">The Final Desktop Prototype</p>
                                     <hr class="d-none d-lg-block mb-0 me-0" />
                                 </div>
                             </div>
